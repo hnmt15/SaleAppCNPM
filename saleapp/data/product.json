@@ -1,0 +1,52 @@
+[
+  {"id":  1, "name": "Iphone 17", "image" : "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg", "price": 44490000, "cate_id": 2},
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S25",
+    "image": "https://ntstore.com.vn/wp-content/uploads/2025/02/ntstore_samsung-galaxy-s24-ultra-xam-1-2.png.webp",
+    "price": 39990000,
+    "cate_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Laptop Asus Vivobook 15",
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_13__7_33.png",
+    "price": 28990000,
+    "cate_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Iphone 13",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729091944/refurb-iphone-13-pro-max-blue-2023_tuhb2j.jpg",
+    "cate_id": 2
+  },
+  {
+    "id": 5,
+    "name": "Iphone 14",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729091915/refurb-iphone-14-pro-spaceblack-202404_zrfqfz.jpg",
+    "cate_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Sony Xperia 1 V",
+    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "price": 29990000,
+    "cate_id": 2
+  },
+  {
+    "id": 7,
+    "name": "Huawei P70 Pro",
+    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "price": 24990000,
+    "cate_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Asus ROG Phone 8",
+    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "price": 27990000,
+    "cate_id": 2
+  }
+]
