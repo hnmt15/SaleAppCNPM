@@ -16,6 +16,15 @@ def load_products(q=None, cate_id=None):
         if cate_id:
             products = [p for p in products if p["cate_id"].__eq__(int(cate_id))]
         return products
+def get_product_by_id(id):
+    with open("data/product.json", encoding="utf-8") as f1:
+        products = json.load(f1)
+
+        for p in products:
+            if p["id"].__eq__(id):
+                return p
+
+    return None
 
 if __name__=="__main__":
-    print(load_categories())
+    print(get_product_by_id(2))
