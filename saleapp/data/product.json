@@ -1,9 +1,10 @@
 [
-  {"id":  1, "name": "Iphone 17", "image" : "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg", "price": 44490000, "cate_id": 2},
+  {"id":  1, "name": "Iphone 17",
+    "image" : "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg", "price": 44490000, "cate_id": 2},
   {
     "id": 2,
     "name": "Samsung Galaxy S25",
-    "image": "https://ntstore.com.vn/wp-content/uploads/2025/02/ntstore_samsung-galaxy-s24-ultra-xam-1-2.png.webp",
+    "image": "https://www.techcrazy.co.nz/cdn/shop/files/Samsung-Galaxy-S24-Ultra-12GB-256GB-5G-Titanium-Grey--MP-00063-2_7e1b8880-8555-4e46-9f95-35fe83da794c.jpg?v=1737511518",
     "price": 39990000,
     "cate_id": 2
   },
@@ -31,22 +32,22 @@
   {
     "id": 6,
     "name": "Sony Xperia 1 V",
-    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "image": "https://fdn.gsmarena.com/imgroot/news/23/05/sony-xperia-1-v-official/inline/-1200/gsmarena_004.jpg",
     "price": 29990000,
     "cate_id": 2
   },
   {
     "id": 7,
     "name": "Huawei P70 Pro",
-    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "image": "https://cyberteamcr.com/wp-content/uploads/2024/07/PicsArt_06-05-03.47.43-scaled-1.webp",
     "price": 24990000,
     "cate_id": 2
   },
   {
     "id": 8,
-    "name": "Asus ROG Phone 8",
-    "image": "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg",
+    "name": "Samsung Galaxy Tab S2 9.7",
+    "image": "https://i5.walmartimages.com/seo/Samsung-Galaxy-Tab-S2-9-7-32GB-Tablet-Android-5-0_a88e1988-995f-4112-a627-426b3b581192.aeec8b4e4fe5ab920ce5062f93ddb30b.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
     "price": 27990000,
-    "cate_id": 2
+    "cate_id": 3
   }
 ]

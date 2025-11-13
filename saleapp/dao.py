@@ -1,5 +1,6 @@
 import json
 from models import Category, Product
+from saleapp import app, db
 
 
 def load_categories():
@@ -7,7 +8,7 @@ def load_categories():
     #     return json.load(f)
     return Category.query.all()
 
-def load_products(q=None, cate_id=None):
+def load_products(q=None, cate_id=None, page=None):
     # with open("data/product.json", encoding="utf-8") as f:
     #     products = json.load(f)
     #
@@ -24,14 +25,15 @@ def load_products(q=None, cate_id=None):
 
     if cate_id:
         query = query.filter(Product.cate_id.__eq__(cate_id))
-    #
-    # if page:
-    #     size = app.config["PAGE_SIZE"]
-    #     start = (int(page)-1)*size
-    #     query = query.slice(sta)
-    #
-    return query.all()
 
+    if page:
+        size = app.config["PAGE_SIZE"]
+        start = (int(page)-1)*size
+        query = query.slice(start, start*size)
+
+    return query.all()
+def count_products():
+   return Product.query.count()
 def get_product_by_id(id):
     # with open("data/product.json", encoding="utf-8") as f:
     #     products = json.load(f)
@@ -41,7 +43,9 @@ def get_product_by_id(id):
     #             return p
     #
     # return None
-    return Product.query.get(id)
+    # return Product.query.get(id)
+    return db.session.get(Product, id)
 
 if __name__=="__main__":
-    print(load_categories())
+    with app.app_context():
+        print(get_product_by_id(2))
