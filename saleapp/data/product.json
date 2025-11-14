@@ -3,9 +3,9 @@
     "image" : "https://cdn.xtmobile.vn/vnt_upload/product/09_2025/thumbs/600_iPhone_17_Pro_cam.jpg", "price": 44490000, "cate_id": 2},
   {
     "id": 2,
-    "name": "Samsung Galaxy S25",
-    "image": "https://www.techcrazy.co.nz/cdn/shop/files/Samsung-Galaxy-S24-Ultra-12GB-256GB-5G-Titanium-Grey--MP-00063-2_7e1b8880-8555-4e46-9f95-35fe83da794c.jpg?v=1737511518",
-    "price": 39990000,
+    "name": "Samsung Galaxy",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729091967/419VTYVRD1L._AC__vih8qs.jpg",
     "cate_id": 2
   },
   {
@@ -31,16 +31,16 @@
   },
   {
     "id": 6,
-    "name": "Sony Xperia 1 V",
-    "image": "https://fdn.gsmarena.com/imgroot/news/23/05/sony-xperia-1-v-official/inline/-1200/gsmarena_004.jpg",
-    "price": 29990000,
-    "cate_id": 2
+    "name": "Galaxy Note",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729091983/61896OtgvGL_xi09hb.jpg",
+    "cate_id": 3
   },
   {
     "id": 7,
-    "name": "Huawei P70 Pro",
-    "image": "https://cyberteamcr.com/wp-content/uploads/2024/07/PicsArt_06-05-03.47.43-scaled-1.webp",
-    "price": 24990000,
+    "name": "Iphone Pro Max 15",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729842193/iPhone_15_Pro_Natural_1_ltf9vr.webp",
     "cate_id": 2
   },
   {

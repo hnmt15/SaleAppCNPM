@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7dc9c7-7193-40d8-9326-dc59b7d1cda5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/saleapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saleapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saleapp/templates/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SaleAppCNPM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SaleAppCNPM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/dao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/data/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/data/product.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/layout/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saleapp/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/products-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/products-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saleapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/SaleAppCNPM",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -133,15 +133,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.index" />
-        <item itemvalue="Python.models" />
         <item itemvalue="Python.dao" />
+        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>

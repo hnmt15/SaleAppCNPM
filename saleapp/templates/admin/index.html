@@ -1,10 +1,7 @@
-{%extends 'layout/base.html'%}
+{% extends 'admin/master.html' %}
 
-{%block title%}Login{%endblock%}
-
-{%block content%}
-
-<h3 class="text-info text-center">LOGIN PAGE</h3>
+{% block body %}
+<h3 class="text-info text-center mt-3">WELCOME TO ADMIN PAGE</h3>
 
 {%if err_msg%}
 <div class="alert alert-danger">{{err_msg}}</div>
@@ -12,16 +9,19 @@
 
 <form method="post">
     <div class="form-floating mb-3 mt-3">
-        <input type="text" class="form-control" id="username" placeholder="Enter email" name="username">
         <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter email" name="username">
+
     </div>
 
     <div class="form-floating mt-3 mb-3">
-        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
         <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+
     </div>
     <div class="form-floating mt-3 mb-3">
         <button class="btn btn-info" type="submit">Login</button>
     </div>
 </form>
-{%endblock%}
+
+{% endblock %}
